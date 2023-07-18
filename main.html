@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Bootstrap Table Example</title>
+  <!-- Add the Bootstrap CSS link or include the necessary CSS files -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <h2>Table Example</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Event</th>
+        <th>Location</th>
+        <th class="text-end">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2022-01-01</td>
+        <td>New Year's Day</td>
+        <td>City Park</td>
+        <td class="text-end">$200.00</td>
+      </tr>
+      <tr>
+        <td>2022-02-14</td>
+        <td>Valentine's Day</td>
+        <td>Restaurant</td>
+        <td class="text-end">$150.00</td>
+      </tr>
+      <tr>
+        <td>2022-12-25</td>
+        <td>Christmas Day</td>
+        <td>Home</td>
+        <td class="text-end">$300.00</td>
+      </tr>
+      <tr class="table-dark">
+        <td colspan="3" class="text-end fw-bold">Total:</td>
+        <td class="text-end fw-bold">$650.00</td>
+      </tr>
+    </tbody>
+  </table>
 
+  <!-- Add the Bootstrap JavaScript link or include the necessary JS files -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
