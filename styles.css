@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+table,tr{
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+	border-bottom:
+		font:monospace;
+}
+.total{
+	text-align: center;
+}
